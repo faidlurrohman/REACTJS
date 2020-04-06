@@ -1,0 +1,49 @@
+.App {
+  /* text-align: center; */
+}
+
+.Header {
+  background-color: tomato;
+  text-align: center;
+  padding: 2em 0;
+}
+
+h1 {
+  color: white;
+}
+
+.FormSave {
+  padding: 1em;
+  text-align: end;
+}
+
+.FormEdit {
+  padding: 1em;
+  text-align: end;
+}
+
+.todoList {
+  padding: 1em;
+}
+
+.cardTodo {
+  margin-bottom: 1em;
+}
+
+.btn-toolbar {
+  justify-content: flex-end !important;
+}
+
+.custom-control-input:disabled ~ .custom-control-label,
+.custom-control-input[disabled] ~ .custom-control-label {
+  color: white !important;
+}
+
+.custom-switch
+  .custom-control-input:disabled:checked
+  ~ .custom-control-label::before {
+  background-color: darkgray !important;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: darkgray !important;
+}
